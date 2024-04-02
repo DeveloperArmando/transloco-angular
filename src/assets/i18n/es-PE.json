@@ -1,0 +1,14 @@
+{
+  "hello": "Hola Mundo Peru",
+  "food": "taco peruano o taco de pescado",
+  "transport": "combis o colectivos",
+  "money": "plata o billete",
+  "greetings": "¿Qué tal chibolo? o ¿Cómo estás, hermano(a)?",
+  "level1": {
+    "friends": "pata o amigo o pana",
+    "kids": "chibolo o niño",
+    "cars": "auto o carro",
+    "drinks": "gaseosa o soda"
+  },
+  "avocado": "Tengo {{count}} paltas"
+}
