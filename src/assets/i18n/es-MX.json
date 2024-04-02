@@ -1,0 +1,14 @@
+{
+  "hello": "Hola Mundo MX",
+  "food": "taco",
+  "transport": "micro o camión",
+  "money": "pistos o lana",
+  "greetings": "¿Qué onda? o ¿Qué hubo? o ¿Cómo estás?",
+  "level1": {
+    "friends": "compa o cuate o amigo",
+    "kids": "chavo o niño",
+    "cars": "coche o carro",
+    "drinks": "refresco o soda"
+  },
+  "avocado": "Tengo {{count}} aguacates"
+}
