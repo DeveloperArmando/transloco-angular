@@ -3,6 +3,7 @@ import {
   LangDefinition,
   TranslocoService,
   translate,
+  getBrowserCultureLang,
 } from '@jsverse/transloco';
 import { Subscription, filter, take } from 'rxjs';
 
@@ -17,7 +18,11 @@ export class AppComponent implements OnInit {
     this.translocoService.getAvailableLangs() as LangDefinition[];
   private subscription?: Subscription | null;
 
-  constructor(private translocoService: TranslocoService) {}
+  constructor(private translocoService: TranslocoService) {
+    const langBrowser = getBrowserCultureLang();
+    console.log('langBrowser', langBrowser);
+    this.changeLang(langBrowser);
+  }
 
   ngOnInit() {
     // Esas a mi no me jalaron
