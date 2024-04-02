@@ -2,6 +2,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.12.
 
+basado en https://github.com/jsverse/transloco/
+El codesandbox original es https://codesandbox.io/p/sandbox/amazing-babycat-kn52hs
+
 
 Is using transloco
 
